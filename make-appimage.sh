@@ -10,7 +10,9 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/stirling-pdf
+quick-sharun \
+	./AppDir/bin/stirling-pdf
+	./AppDir/lib/Stirling-PDF
 
 # Additional changes can be done in between here
 
