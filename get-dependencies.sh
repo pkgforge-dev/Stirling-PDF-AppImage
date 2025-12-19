@@ -28,7 +28,7 @@ tar -xvf ./data.tar.gz
 rm -f ./*.gz
 mv -v ./usr ./AppDir
 mv -v ./AppDir/share/applications/Stirling-PDF.desktop            ./AppDir
-mv -v ./AppDir/share/icons/hicolor/192x192/apps/stirling-pdf.png  ./AppDir/.DirIcon
-mv -v ./AppDir/share/icons/hicolor/192x192/apps/stirling-pdf.png  ./AppDir
+mv -v ./AppDir/share/icons/hicolor/512x512/apps/stirling-pdf.png  ./AppDir/.DirIcon
+mv -v ./AppDir/share/icons/hicolor/512x512/apps/stirling-pdf.png  ./AppDir
 
 awk -F'/' '/Location:/{print $(NF-1); exit}' /tmp/download.log > ~/version
