@@ -11,6 +11,14 @@ AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it
 
 **This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
 
+Install it with: 
+
+* [AM](https://github.com/ivan-hc/AM) `am -i stirling-pdf` or `appman -i stirling-pdf`
+
+* [dbin](https://github.com/xplshn/dbin) `dbin install stirling-pdf.appimage`
+
+* [soar](https://github.com/pkgforge/soar) `soar install stirling-pdf`
+
 This AppImage can work **without FUSE** at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
 
 More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
