@@ -7,11 +7,11 @@ DEB_LINK="https://github.com/Stirling-Tools/Stirling-PDF/releases/latest/downloa
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm webkit2gtk-4.1
+# pacman -Syu --noconfirm webkit2gtk-4.1
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano webkit2gtk-4.1-mini
 
 # Comment this out if you need an AUR package
 #make-aur-package PACKAGENAME
